@@ -1,0 +1,36 @@
+::-webkit-scrollbar {
+  width: var(--ui-scrollbar-size);
+  height: var(--ui-scrollbar-size);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ui-scrollbar-bg);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--ui-font-family-aktiv-regular);
+  font-size: var(--ui-font-size-base);
+  background-color: var(--ui-body-bg);
+  color: var(--ui-body-color);
+  line-height: 1.1;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*:focus {
+  outline-color: var(--focus-outline);
+}
+
+#app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}

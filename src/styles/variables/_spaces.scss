@@ -1,0 +1,9 @@
+:root {
+  --ui-space-md: 28px;
+
+  --ui-space-base-half: calc(var(--ui-space-base) / 2);
+  --ui-space-base: 18px;
+  --ui-space-base-double: calc(var(--ui-space-base) * 2);
+
+  --ui-space-small: calc(var(--ui-space-base) / 4);
+}

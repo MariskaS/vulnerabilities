@@ -1,0 +1,11 @@
+@mixin vuln-disabled-visually {
+  opacity: .4;
+  cursor: default;
+  user-select: none;
+}
+
+@mixin rui-disabled {
+  @include vuln-disabled-visually();
+
+  pointer-events: none;
+}
